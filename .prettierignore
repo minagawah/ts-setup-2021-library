@@ -1,0 +1,11 @@
+babel.config.js
+/dist
+.eslintrc.js
+jest.config.ts
+/node_modules
+package.json
+.prettierrc.js
+tsconfig.json
+yarn-error.log
+yarn.lock
+package-lock.json
