@@ -29,35 +29,40 @@ and use Babel for transpilation.
 
 ### # Why TypeScript?
 
-I have a complicated feeling toward TS.
-For all the effort spent, I feel the benefits are not much.
-I guess this is about *ROI* ("Return of Investment").
-For instance, say, I spend 6 days for development.
-Out of these 6 days, I struggle for 5 days on types.
-Even with `@types/xxx`, this happens.
-Though, all I wanted was to spend 6 full days on actual implementation.
-With TS, I struggle for nothing.
-TS is just not productive, I think...
+I have mixed feelings about TS...  
+I love it, but I hate it at the same time.  
+I guess, it is a matter of "ROI (Return Of Investment)".  
+For the effort I spend, I feel get less...  
+Say, I spend 6 days for develpment.  
+Out of which I spend 5 days for defining types  
+while I just wanted to focus on acutal stuff.  
+This happens even with `@types/xxxx`
 
-I know you would argue it is all for the future benefit of eliminating bugs.
-Well, I sort of agree with you, but partially.
-In a nutshell, I think TS is not very friendly...
-In TS, I spend time on ridiculous stuff that are otherwise so obvious in other statically typed languages.
-When developing in Rust, I get a whole lot more.
-Maybe, type inference in TS isn't great enough.
-If I were told to use TS, I would rather use other languages.
+You would argue, it is for our own good.  
+Like reducing bugs, detecting changes when refactoring, etc.  
+Well, I partially agree with you.  
+But, what is the use of static types  
+when many bugs usually do not derive from type related issues  
+and when you know TS significantly slows you down?
 
-Personally, just by harnessing JS with static types would not do any good.
-JS is better off without TS...
+Compared to other static types languages,  
+TS hardly provides friendly experiences.  
+It takes ridiculous amount of time even for the simplest stuff  
+which would not become a problem for other languages otherwise.  
+Maybe it has to do with TS having bad type inference?  
+As long as it slows me down,  
+even if I were told to use TS for new projects,  
+I would rather choose different languages.  
+It is simply not for me.
 
-Yet, I still use TS when I write:
+I still use TS though.  
+Usually, for things like:
 
-(1) Server-Side API  
-(2) Library
+- Server-side APIs
+- Libraries
 
-in another word, I prefer TS when the app is exposed to the public,
-and when it needs explicity for others to read.
-
+In another word, when they are exposed to the public,  
+and when they require explicity for the readers.
 
 #### References
 
@@ -145,12 +150,10 @@ Removes `/dist`. Builds them all.
 
 &nbsp;
 
-
 ## 3. What I Did
 
 Everything is in config files, and they are all explanatory,
 but I will leave notes for some essential tips.
-
 
 ### 3-1. All NPM Packages Installed
 
@@ -288,7 +291,6 @@ Please, someone explain to me why...
 
 &nbsp;
 
-
 ### 3-6. Other Useful Packages
 
 FP (functional programming) is all about
@@ -301,7 +303,6 @@ yarn add ramda
 ```
 
 &nbsp;
-
 
 ## 4. License
 
