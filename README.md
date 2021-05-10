@@ -29,34 +29,7 @@ and use Babel for transpilation.
 
 ### # Why TypeScript?
 
-I have a complicated feeling toward TS.
-For all the effort spent, I feel the benefits are not much.
-I guess this is about *ROI* ("Return of Investment").
-For instance, say, I spend 6 days for development.
-Out of these 6 days, I struggle for 5 days on types.
-Even with `@types/xxx`, this happens.
-Though, all I wanted was to spend 6 full days on actual implementation.
-With TS, I struggle for nothing.
-TS is just not productive, I think...
-
-I know you would argue it is all for the future benefit of eliminating bugs.
-Well, I sort of agree with you, but partially.
-In a nutshell, I think TS is not very friendly...
-In TS, I spend time on ridiculous stuff that are otherwise so obvious in other statically typed languages.
-When developing in Rust, I get a whole lot more.
-Maybe, type inference in TS isn't great enough.
-If I were told to use TS, I would rather use other languages.
-
-Personally, just by harnessing JS with static types would not do any good.
-JS is better off without TS...
-
-Yet, I still use TS when I write:
-
-(1) Server-Side API  
-(2) Library
-
-in another word, I prefer TS when the app is exposed to the public,
-and when it needs explicity for others to read.
+[Why I Don't Use TypeScript?](https://gist.github.com/minagawah/ea360c9e979af4696512a70aa1f2fc20)
 
 
 #### References
@@ -145,12 +118,10 @@ Removes `/dist`. Builds them all.
 
 &nbsp;
 
-
 ## 3. What I Did
 
 Everything is in config files, and they are all explanatory,
 but I will leave notes for some essential tips.
-
 
 ### 3-1. All NPM Packages Installed
 
@@ -288,7 +259,6 @@ Please, someone explain to me why...
 
 &nbsp;
 
-
 ### 3-6. Other Useful Packages
 
 FP (functional programming) is all about
@@ -301,7 +271,6 @@ yarn add ramda
 ```
 
 &nbsp;
-
 
 ## 4. License
 
